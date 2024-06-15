@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Libros</title>
+    <style>
+        /* Estilos opcionales para la tabla */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        caption {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Relación de libros</caption>
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Título</th>
+                <th>Autor</th>
+                <th>Editorial</th>
+                <th>Categoría</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">001</td>
+                <td>El nombre del viento</td>
+                <td>Patrick Rothfuss</td>
+                <td>Penguin Random House</td>
+                <td>Fantasía</td>
+                <td>Disponible</td>
+            </tr>
+            <tr>
+                <td colspan="4">Descripción: Aventuras de un joven mago en un mundo de fantasía.</td>
+                <td> </td> <!-- Celda vacía para mantener el formato -->
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>1984</td>
+                <td>George Orwell</td>
+                <td>Debolsillo</td>
+                <td>Ciencia ficción</td>
+                <td>Préstamo</td>
+            </tr>
+            <tr>
+                <td colspan="6"><strong>Más detalles:</strong> Distopía sobre un gobierno totalitario.</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Orgullo y prejuicio</td>
+                <td>Jane Austen</td>
+                <td>Penguin Clásicos</td>
+                <td>Clásico</td>
+                <td>Disponible</td>
+            </tr>
+            <tr>
+                <td>004</td>
+                <td>El señor de los anillos</td>
+                <td>J.R.R. Tolkien</td>
+                <td>Minotauro</td>
+                <td>Fantasía épica</td>
+                <td>Disponible</td>
+            </tr>
+            <tr>
+                <td colspan="6">Trilogía épica sobre la lucha por destruir un anillo mágico.</td>
+            </tr>
+            <tr>
+                <td rowspan="3">005</td>
+                <td>Cien años de soledad</td>
+                <td>Gabriel García Márquez</td>
+                <td>Diana Edit</td>
+                <td>Realismo mágico</td>
+                <td>Préstamo</td>
+            </tr>
+            <tr>
+                <td colspan="5">Novela que narra la historia de varias generaciones de la familia Buendía.</td>
+            </tr>
+            <tr>
+                <td colspan="5">Estado: Prestado a Juan Pérez hasta el 20/07/2024.</td>
+            </tr>
+            <tr>
+                <td>006</td>
+                <td>Harry Potter y la piedra filosofal</td>
+                <td>J.K. Rowling</td>
+                <td>Salamandra</td>
+                <td>Fantasía</td>
+                <td>Disponible</td>
+            </tr>
+            <tr>
+                <td>007</td>
+                <td>Los juegos del hambre</td>
+                <td>Suzanne Collins</td>
+                <td>Molino</td>
+                <td>Ciencia ficción</td>
+                <td>Préstamo</td>
+            </tr>
+            <tr>
+                <td>008</td>
+                <td>La sombra del viento</td>
+                <td>Carlos Ruiz Zafón</td>
+                <td>Planeta</td>
+                <td>Novela</td>
+                <td>Disponible</td>
+            </tr>
+            <tr>
+                <td rowspan="2">009</td>
+                <td>El hobbit</td>
+                <td>J.R.R. Tolkien</td>
+                <td>Minotauro</td>
+                <td>Aventura</td>
+                <td>Préstamo</td>
+            </tr>
+            <tr>
+                <td colspan="4">Una aventura en la Tierra Media en busca del tesoro de un dragón.</td>
+                <td></td> <!-- Celda vacía para mantener el formato -->
+            </tr>
+            <tr>
+                <td>010</td>
+                <td>Crónica de una muerte anunciada</td>
+                <td>Gabriel García Márquez</td>
+                <td>Diana Edit</td>
+                <td>Realismo mágico</td>
+                <td>Disponible</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
